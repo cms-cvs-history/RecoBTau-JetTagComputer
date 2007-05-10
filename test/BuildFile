@@ -1,0 +1,13 @@
+<use name=Foundation/PluginManager>
+<use name=FWCore/Utilities>
+<use name=FWCore/Framework>
+<use name=FWCore/ParameterSet>
+<use name=FWCore/ServiceRegistry>
+
+<library file=testMakeMVAComputerCondDB.cc name=testMakeMVAComputerCondDB>
+   <use name=CondFormats/PhysicsToolsObjects>
+   <use name=CondFormats/DataRecord>
+   <use name=PhysicsTools/MVAComputer>
+   <use name=CondCore/DBOutputService>
+   <flags EDM_PLUGIN=1>
+</library>
