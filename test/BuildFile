@@ -1,0 +1,14 @@
+<use name=FWCore/Utilities>
+<use name=FWCore/Framework>
+<use name=FWCore/ParameterSet>
+<use name=FWCore/ServiceRegistry>
+
+<use name=CondFormats/PhysicsToolsObjects>
+<use name=CondFormats/DataRecord>
+
+<library file=writeBTauFakeMVAJetTagConditions.cc name=writeBTauFakeMVAJetTagConditions>
+   <use name=rootcore>
+   <flags LDFLAGS="-lXMLIO">
+   <flags CXXFLAGS="-fpermissive">
+   <flags EDM_PLUGIN=1>
+</library>

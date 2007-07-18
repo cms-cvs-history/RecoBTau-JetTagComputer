@@ -1,0 +1,3 @@
+es_source FakeBTauMVAJetTagComputerRecord = BTauFakeMVAJetTagConditions {
+	FileInPath xmlCalibration = "RecoBTau/JetTagComputer/data/MVAJetTagsFakeConditions.xml"
+}

@@ -1,0 +1,17 @@
+include "CondCore/DBCommon/data/CondDBSetup.cfi"
+
+es_source BTauMVAJetTagComputerRecord = PoolDBESSource {
+	using CondDBSetup
+
+	string connect = "frontier://FrontierDev/CMS_COND_BTAU"
+	string timetype = "runnumber"
+	untracked bool siteLocalConfig = true 
+
+	VPSet toGet = {
+		{
+			string record   = "BTauGenericMVAJetTagComputerRcd"
+			string tag      = "MVAJetTags_CMSSW_1_6_0_preliminary"
+		}
+	}
+}
+replace BTauMVAJetTagComputerRecord.DBParameters.loadBlobStreamer = true
