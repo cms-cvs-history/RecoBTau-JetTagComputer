@@ -182,9 +182,9 @@
                     <Member name="distr">
                       <Item name="Version" v="4"/>
                       <Item name="Int_t" v="5"/>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -296,18 +296,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="10.000035"/>
                               <Member name="max" v="1515.781128"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="275410.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -387,7 +386,7 @@
                               <Item name="Float_t" v="2703.877441"/>
                               <Item name="Float_t" v="2613.587646"/>
                               <Item name="Float_t" v="2522.260254"/>
-                              <Item name="Float_t" v="2430.712402"/>
+                              <Item name="Float_t" v="2430.712646"/>
                               <Item name="Float_t" v="2339.387207"/>
                               <Item name="Float_t" v="2248.888184"/>
                               <Item name="Float_t" v="2160.516357"/>
@@ -419,18 +418,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-2.499986"/>
                               <Member name="max" v="2.499879"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="227638.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -542,18 +540,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-80.000000"/>
                               <Member name="max" v="150.000000"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="1269719.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -665,18 +662,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-80.000000"/>
                               <Member name="max" v="150.000000"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="1269752.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -788,13 +784,12 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="0.000000"/>
                               <Member name="max" v="50.000000"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="230044.000000"/>
                         </Class>
                       </Object>
                     </Member>
@@ -828,8 +823,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -891,18 +886,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999998"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -964,13 +958,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999998"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -979,8 +972,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1042,18 +1035,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000005"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1115,13 +1107,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000005"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -1130,8 +1121,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1193,18 +1184,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1266,13 +1256,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -1307,8 +1296,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1370,18 +1359,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1443,13 +1431,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -1458,8 +1445,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1521,18 +1508,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1594,13 +1580,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -1609,8 +1594,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1672,18 +1657,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -1745,13 +1729,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -2247,9 +2230,9 @@
                     <Member name="distr">
                       <Item name="Version" v="4"/>
                       <Item name="Int_t" v="8"/>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -2361,18 +2344,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="10.001365"/>
                               <Member name="max" v="1214.320923"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="227074.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -2484,18 +2466,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-2.498833"/>
                               <Member name="max" v="2.499863"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="209252.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -2607,18 +2588,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-80.000000"/>
                               <Member name="max" v="150.000000"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="711129.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -2730,18 +2710,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="1.336877"/>
                               <Member name="max" v="7.671650"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="711410.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -2853,18 +2832,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="0.279569"/>
                               <Member name="max" v="28.187225"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="108375.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -2976,18 +2954,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="0.001773"/>
                               <Member name="max" v="1.000000"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="122554.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -3099,18 +3076,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-75.366867"/>
                               <Member name="max" v="91.530815"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="104532.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -3222,13 +3198,12 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="0.000000"/>
                               <Member name="max" v="2000.000000"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="146565.000000"/>
                         </Class>
                       </Object>
                     </Member>
@@ -3264,8 +3239,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -3327,18 +3302,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000056"/>
                                   <Member name="max" v="0.999961"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -3400,13 +3374,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000056"/>
                                   <Member name="max" v="0.999961"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -3415,8 +3388,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -3478,18 +3451,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999996"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -3551,13 +3523,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999996"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -3566,8 +3537,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -3629,18 +3600,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -3702,13 +3672,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -3744,8 +3713,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -3807,18 +3776,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000036"/>
                                   <Member name="max" v="0.999986"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -3880,13 +3848,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000036"/>
                                   <Member name="max" v="0.999986"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -3895,8 +3862,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -3958,18 +3925,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000138"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -4031,13 +3997,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000138"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -4046,8 +4011,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -4109,18 +4074,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999997"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -4182,13 +4146,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999997"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -4836,9 +4799,9 @@
                     <Member name="distr">
                       <Item name="Version" v="4"/>
                       <Item name="Int_t" v="7"/>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -4950,18 +4913,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="10.010422"/>
                               <Member name="max" v="1515.781128"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="17814.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -5073,18 +5035,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-2.487537"/>
                               <Member name="max" v="2.474355"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="16522.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -5196,18 +5157,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-80.000000"/>
                               <Member name="max" v="150.000000"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="55889.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -5319,18 +5279,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="1.340513"/>
                               <Member name="max" v="7.297278"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="55901.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -5442,18 +5401,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="0.280127"/>
                               <Member name="max" v="41.581581"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="9602.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -5565,18 +5523,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="0.002932"/>
                               <Member name="max" v="1.000000"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="8682.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -5688,13 +5645,12 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-114.582283"/>
                               <Member name="max" v="117.552315"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="8256.000000"/>
                         </Class>
                       </Object>
                     </Member>
@@ -5729,8 +5685,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -5792,18 +5748,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000468"/>
                                   <Member name="max" v="0.999821"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -5865,13 +5820,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000468"/>
                                   <Member name="max" v="0.999821"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -5880,8 +5834,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -5943,18 +5897,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000565"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -6016,13 +5969,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000565"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -6031,8 +5983,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -6094,18 +6046,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -6167,13 +6118,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -6208,8 +6158,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -6271,18 +6221,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999791"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -6344,13 +6293,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999791"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -6359,8 +6307,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -6422,18 +6370,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.001147"/>
                                   <Member name="max" v="0.999857"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -6495,13 +6442,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.001147"/>
                                   <Member name="max" v="0.999857"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -6510,8 +6456,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -6573,18 +6519,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000201"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -6646,13 +6591,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000201"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -7064,9 +7008,9 @@
                     <Member name="distr">
                       <Item name="Version" v="4"/>
                       <Item name="Int_t" v="3"/>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -7178,18 +7122,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="10.000035"/>
                               <Member name="max" v="1236.582642"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="247044.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -7301,18 +7244,17 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-2.499986"/>
                               <Member name="max" v="2.499879"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="207798.000000"/>
                         </Class>
                       </Object>
-                      <Object class="PhysicsTools::Calibration::Histogram">
-                        <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                          <Member name="binLimits">
+                      <Object class="PhysicsTools::Calibration::Histogram_float_float_">
+                        <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                          <Member name="binULimits">
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="0"/>
                           </Member>
@@ -7424,13 +7366,12 @@
                               <Item name="Float_t" v="0.000000"/>
                             </Item>
                           </Member>
-                          <Member name="range">
-                            <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                          <Member name="limits">
+                            <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                               <Member name="min" v="-80.000000"/>
                               <Member name="max" v="150.000000"/>
                             </Class>
                           </Member>
-                          <Member name="total" v="502787.000000"/>
                         </Class>
                       </Object>
                     </Member>
@@ -7464,8 +7405,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -7527,18 +7468,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999993"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -7600,13 +7540,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999993"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -7615,8 +7554,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -7678,18 +7617,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999997"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -7751,13 +7689,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="0.999997"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
@@ -7766,8 +7703,8 @@
                       <Object class="PhysicsTools::Calibration::ProcLikelihood::SigBkg">
                         <Class name="PhysicsTools::Calibration::ProcLikelihood::SigBkg" version="1">
                           <Member name="background">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -7829,18 +7766,17 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="signal">
-                            <Class name="PhysicsTools::Calibration::Histogram" version="1">
-                              <Member name="binLimits">
+                            <Class name="PhysicsTools::Calibration::Histogram_float_float_" version="1">
+                              <Member name="binULimits">
                                 <Item name="Version" v="4"/>
                                 <Item name="Int_t" v="0"/>
                               </Member>
@@ -7902,13 +7838,12 @@
                                   <Item name="Float_t" v="0.000000"/>
                                 </Item>
                               </Member>
-                              <Member name="range">
-                                <Class name="PhysicsTools::Calibration::Histogram::Range" version="1">
+                              <Member name="limits">
+                                <Class name="PhysicsTools::Calibration::Range_float_" version="1">
                                   <Member name="min" v="0.000000"/>
                                   <Member name="max" v="1.000000"/>
                                 </Class>
                               </Member>
-                              <Member name="total" v="1.000000"/>
                             </Class>
                           </Member>
                           <Member name="useSplines" v="true"/>
