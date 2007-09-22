@@ -14,7 +14,7 @@
             <Class name="PhysicsTools::Calibration::MVAComputer" version="1">
               <Member name="inputSet">
                 <Item name="Version" v="4"/>
-                <Item name="Int_t" v="4"/>
+                <Item name="Int_t" v="8"/>
                 <Object class="PhysicsTools::Calibration::Variable">
                   <Class name="PhysicsTools::Calibration::Variable" version="1">
                     <Member name="name">
@@ -37,8 +37,8 @@
                   <Class name="PhysicsTools::Calibration::Variable" version="1">
                     <Member name="name">
                       <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="10"/>
-                      <Item name="CharStar" v="trackSip2d"/>
+                      <Item name="UChar_t" v="13"/>
+                      <Item name="CharStar" v="trackSip2dVal"/>
                     </Member>
                   </Class>
                 </Object>
@@ -46,13 +46,49 @@
                   <Class name="PhysicsTools::Calibration::Variable" version="1">
                     <Member name="name">
                       <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="10"/>
-                      <Item name="CharStar" v="trackSip3d"/>
+                      <Item name="UChar_t" v="13"/>
+                      <Item name="CharStar" v="trackSip2dSig"/>
+                    </Member>
+                  </Class>
+                </Object>
+                <Object class="PhysicsTools::Calibration::Variable">
+                  <Class name="PhysicsTools::Calibration::Variable" version="1">
+                    <Member name="name">
+                      <Item name="Version" v="4"/>
+                      <Item name="UChar_t" v="13"/>
+                      <Item name="CharStar" v="trackSip3dVal"/>
+                    </Member>
+                  </Class>
+                </Object>
+                <Object class="PhysicsTools::Calibration::Variable">
+                  <Class name="PhysicsTools::Calibration::Variable" version="1">
+                    <Member name="name">
+                      <Item name="Version" v="4"/>
+                      <Item name="UChar_t" v="13"/>
+                      <Item name="CharStar" v="trackSip3dSig"/>
+                    </Member>
+                  </Class>
+                </Object>
+                <Object class="PhysicsTools::Calibration::Variable">
+                  <Class name="PhysicsTools::Calibration::Variable" version="1">
+                    <Member name="name">
+                      <Item name="Version" v="4"/>
+                      <Item name="UChar_t" v="12"/>
+                      <Item name="CharStar" v="trackJetDist"/>
+                    </Member>
+                  </Class>
+                </Object>
+                <Object class="PhysicsTools::Calibration::Variable">
+                  <Class name="PhysicsTools::Calibration::Variable" version="1">
+                    <Member name="name">
+                      <Item name="Version" v="4"/>
+                      <Item name="UChar_t" v="19"/>
+                      <Item name="CharStar" v="trackFirstTrackDist"/>
                     </Member>
                   </Class>
                 </Object>
               </Member>
-              <Member name="output" v="20"/>
+              <Member name="output" v="24"/>
               <Member name="processors_">
                 <Item name="Version" v="4"/>
                 <Item name="Int_t" v="7"/>
@@ -80,10 +116,10 @@
                             <Item name="Array">
                               <Item name="UChar_t" v="0"/>
                               <Item name="UChar_t" v="0"/>
-                              <Item name="UChar_t" v="3"/>
+                              <Item name="UChar_t" v="48"/>
                             </Item>
                           </Member>
-                          <Member name="bitsInLast" v="2"/>
+                          <Member name="bitsInLast" v="6"/>
                         </Class>
                       </Member>
                     </Member>
@@ -110,10 +146,10 @@
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="1"/>
                             <Item name="Array">
-                              <Item name="UChar_t" v="4"/>
+                              <Item name="UChar_t" v="8"/>
                             </Item>
                           </Member>
-                          <Member name="bitsInLast" v="4"/>
+                          <Member name="bitsInLast" v="8"/>
                         </Class>
                       </Member>
                     </Member>
@@ -136,11 +172,11 @@
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="2"/>
                             <Item name="Array">
-                              <Item name="UChar_t" v="128"/>
-                              <Item name="UChar_t" v="1"/>
+                              <Item name="UChar_t" v="0"/>
+                              <Item name="UChar_t" v="24"/>
                             </Item>
                           </Member>
-                          <Member name="bitsInLast" v="2"/>
+                          <Member name="bitsInLast" v="6"/>
                         </Class>
                       </Member>
                     </Member>
@@ -170,12 +206,13 @@
                         <Class name="PhysicsTools::Calibration::BitSet" version="1">
                           <Member name="store">
                             <Item name="Version" v="4"/>
-                            <Item name="Int_t" v="1"/>
+                            <Item name="Int_t" v="2"/>
                             <Item name="Array">
-                              <Item name="UChar_t" v="31"/>
+                              <Item name="UChar_t" v="43"/>
+                              <Item name="UChar_t" v="1"/>
                             </Item>
                           </Member>
-                          <Member name="bitsInLast" v="5"/>
+                          <Member name="bitsInLast" v="1"/>
                         </Class>
                       </Member>
                     </Member>
@@ -807,13 +844,14 @@
                         <Class name="PhysicsTools::Calibration::BitSet" version="1">
                           <Member name="store">
                             <Item name="Version" v="4"/>
-                            <Item name="Int_t" v="2"/>
+                            <Item name="Int_t" v="3"/>
                             <Item name="Array">
                               <Item name="UChar_t" v="0"/>
-                              <Item name="UChar_t" v="28"/>
+                              <Item name="UChar_t" v="192"/>
+                              <Item name="UChar_t" v="1"/>
                             </Item>
                           </Member>
-                          <Member name="bitsInLast" v="8"/>
+                          <Member name="bitsInLast" v="4"/>
                         </Class>
                       </Member>
                     </Member>
@@ -1282,11 +1320,11 @@
                             <Item name="Int_t" v="3"/>
                             <Item name="Array">
                               <Item name="UChar_t" v="0"/>
-                              <Item name="UChar_t" v="224"/>
                               <Item name="UChar_t" v="0"/>
+                              <Item name="UChar_t" v="14"/>
                             </Item>
                           </Member>
-                          <Member name="bitsInLast" v="1"/>
+                          <Member name="bitsInLast" v="5"/>
                         </Class>
                       </Member>
                     </Member>
@@ -1774,12 +1812,12 @@
                             <Item name="Version" v="4"/>
                             <Item name="Int_t" v="3"/>
                             <Item name="Array">
-                              <Item name="UChar_t" v="96"/>
-                              <Item name="UChar_t" v="2"/>
-                              <Item name="UChar_t" v="12"/>
+                              <Item name="UChar_t" v="0"/>
+                              <Item name="UChar_t" v="38"/>
+                              <Item name="UChar_t" v="192"/>
                             </Item>
                           </Member>
-                          <Member name="bitsInLast" v="4"/>
+                          <Member name="bitsInLast" v="8"/>
                         </Class>
                       </Member>
                     </Member>
@@ -2036,8 +2074,8 @@
                   <Class name="PhysicsTools::Calibration::Variable" version="1">
                     <Member name="name">
                       <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="10"/>
-                      <Item name="CharStar" v="trackSip2d"/>
+                      <Item name="UChar_t" v="13"/>
+                      <Item name="CharStar" v="trackSip2dSig"/>
                     </Member>
                   </Class>
                 </Object>
@@ -2063,17 +2101,8 @@
                   <Class name="PhysicsTools::Calibration::Variable" version="1">
                     <Member name="name">
                       <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="18"/>
-                      <Item name="CharStar" v="vertexMultiplicity"/>
-                    </Member>
-                  </Class>
-                </Object>
-                <Object class="PhysicsTools::Calibration::Variable">
-                  <Class name="PhysicsTools::Calibration::Variable" version="1">
-                    <Member name="name">
-                      <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="23"/>
-                      <Item name="CharStar" v="secondaryVtxEnergyRatio"/>
+                      <Item name="UChar_t" v="13"/>
+                      <Item name="CharStar" v="vertexNTracks"/>
                     </Member>
                   </Class>
                 </Object>
@@ -2082,7 +2111,7 @@
                     <Member name="name">
                       <Item name="Version" v="4"/>
                       <Item name="UChar_t" v="17"/>
-                      <Item name="CharStar" v="trackSip2dAbCharm"/>
+                      <Item name="CharStar" v="vertexEnergyRatio"/>
                     </Member>
                   </Class>
                 </Object>
@@ -2090,8 +2119,17 @@
                   <Class name="PhysicsTools::Calibration::Variable" version="1">
                     <Member name="name">
                       <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="28"/>
-                      <Item name="CharStar" v="flightDistance2DSignificance"/>
+                      <Item name="UChar_t" v="23"/>
+                      <Item name="CharStar" v="trackSip2dSigAboveCharm"/>
+                    </Member>
+                  </Class>
+                </Object>
+                <Object class="PhysicsTools::Calibration::Variable">
+                  <Class name="PhysicsTools::Calibration::Variable" version="1">
+                    <Member name="name">
+                      <Item name="Version" v="4"/>
+                      <Item name="UChar_t" v="19"/>
+                      <Item name="CharStar" v="flightDistance2dSig"/>
                     </Member>
                   </Class>
                 </Object>
@@ -4614,8 +4652,8 @@
                   <Class name="PhysicsTools::Calibration::Variable" version="1">
                     <Member name="name">
                       <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="10"/>
-                      <Item name="CharStar" v="trackSip2d"/>
+                      <Item name="UChar_t" v="13"/>
+                      <Item name="CharStar" v="trackSip2dSig"/>
                     </Member>
                   </Class>
                 </Object>
@@ -4641,17 +4679,8 @@
                   <Class name="PhysicsTools::Calibration::Variable" version="1">
                     <Member name="name">
                       <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="18"/>
-                      <Item name="CharStar" v="vertexMultiplicity"/>
-                    </Member>
-                  </Class>
-                </Object>
-                <Object class="PhysicsTools::Calibration::Variable">
-                  <Class name="PhysicsTools::Calibration::Variable" version="1">
-                    <Member name="name">
-                      <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="23"/>
-                      <Item name="CharStar" v="secondaryVtxEnergyRatio"/>
+                      <Item name="UChar_t" v="13"/>
+                      <Item name="CharStar" v="vertexNTracks"/>
                     </Member>
                   </Class>
                 </Object>
@@ -4660,7 +4689,16 @@
                     <Member name="name">
                       <Item name="Version" v="4"/>
                       <Item name="UChar_t" v="17"/>
-                      <Item name="CharStar" v="trackSip2dAbCharm"/>
+                      <Item name="CharStar" v="vertexEnergyRatio"/>
+                    </Member>
+                  </Class>
+                </Object>
+                <Object class="PhysicsTools::Calibration::Variable">
+                  <Class name="PhysicsTools::Calibration::Variable" version="1">
+                    <Member name="name">
+                      <Item name="Version" v="4"/>
+                      <Item name="UChar_t" v="23"/>
+                      <Item name="CharStar" v="trackSip2dSigAboveCharm"/>
                     </Member>
                   </Class>
                 </Object>
@@ -6876,8 +6914,8 @@
                   <Class name="PhysicsTools::Calibration::Variable" version="1">
                     <Member name="name">
                       <Item name="Version" v="4"/>
-                      <Item name="UChar_t" v="10"/>
-                      <Item name="CharStar" v="trackSip2d"/>
+                      <Item name="UChar_t" v="13"/>
+                      <Item name="CharStar" v="trackSip2dSig"/>
                     </Member>
                   </Class>
                 </Object>

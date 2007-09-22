@@ -9,6 +9,5 @@
 <library file=writeBTauFakeMVAJetTagConditions.cc name=writeBTauFakeMVAJetTagConditions>
    <use name=rootcore>
    <flags LDFLAGS="-lXMLIO">
-   <flags CXXFLAGS="-fpermissive">
    <flags EDM_PLUGIN=1>
 </library>
