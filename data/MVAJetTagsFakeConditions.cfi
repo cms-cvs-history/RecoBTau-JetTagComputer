@@ -1,3 +1,18 @@
-es_source FakeBTauMVAJetTagComputerRecord = BTauFakeMVAJetTagConditions {
-	FileInPath xmlCalibration = "RecoBTau/JetTagComputer/data/MVAJetTagsFakeConditions.xml"
+include "CondCore/DBCommon/data/CondDBSetup.cfi"
+
+es_source BTauMVAJetTagComputerRecord = PoolDBESSource {
+	using CondDBSetup
+
+	string connect = "sqlite_fip:RecoBTau/JetTagComputer/data/MVAJetTagsFakeConditions.db"
+	string timetype = "runnumber"
+
+	VPSet toGet = {
+		{
+			string record   = "BTauGenericMVAJetTagComputerRcd"
+			string tag      = "MVAJetTags_CMSSW_1_6_0_preliminary"
+		}
+	}
+
+	untracked string BlobStreamerName = "TBufferBlobStreamingService"
 }
+
