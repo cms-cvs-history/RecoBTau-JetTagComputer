@@ -3,16 +3,15 @@ include "CondCore/DBCommon/data/CondDBSetup.cfi"
 es_source BTauMVAJetTagComputerRecord = PoolDBESSource {
 	using CondDBSetup
 
-	string connect = "sqlite_fip:RecoBTau/JetTagComputer/data/MVAJetTagsFakeConditions.db"
+	string connect = "sqlite_fip:CondCore/SQLiteData/data/MVAJetTagsFakeConditions.db"
 	string timetype = "runnumber"
 
 	VPSet toGet = {
 		{
 			string record   = "BTauGenericMVAJetTagComputerRcd"
-			string tag      = "MVAJetTags_CMSSW_1_7_0_preliminary"
+			string tag      = "MVAJetTags_CMSSW_1_7_0_pre1"
 		}
 	}
 
 	untracked string BlobStreamerName = "TBufferBlobStreamingService"
 }
-
