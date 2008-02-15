@@ -1,0 +1,6 @@
+# define an empty EventSetupRecord for the b/tau algorithms that do not need to access the database
+es_source BTagRecord = EmptyESSource {
+    string recordName = "JetTagComputerRecord"
+    vuint32 firstValid = { 1 }
+    bool iovIsRunNotTime = true
+}
