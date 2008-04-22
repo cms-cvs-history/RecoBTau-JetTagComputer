@@ -9,7 +9,7 @@ es_source BTauMVAJetTagComputerRecord = PoolDBESSource {
 	VPSet toGet = {
 		{
 			string record   = "BTauGenericMVAJetTagComputerRcd"
-			string tag      = "MVAJetTags_CMSSW_1_8_0_mc"
+			string tag      = "MVAJetTags_CMSSW_2_0_0_mc"
 		}
 	}
 
