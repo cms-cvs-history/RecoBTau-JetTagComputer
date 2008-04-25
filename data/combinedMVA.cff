@@ -1,0 +1,2 @@
+include "RecoBTau/JetTagComputer/data/combinedMVAES.cfi"
+include "RecoBTau/JetTagComputer/data/combinedMVABJetTags.cfi"

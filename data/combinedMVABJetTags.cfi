@@ -1,0 +1,9 @@
+module combinedMVABJetTags = JetTagProducer { 
+	VInputTag tagInfos = {
+		impactParameterTagInfos,
+		secondaryVertexTagInfos,
+		softMuonTagInfos,
+		softElectronTagInfos
+	}
+	string jetTagComputer = "combinedMVA"
+}
