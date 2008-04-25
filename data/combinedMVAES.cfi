@@ -1,0 +1,27 @@
+es_module combinedMVA = CombinedMVAJetTagESProducer {
+	bool useCategories		= false
+	string calibrationRecord	= "CombinedMVA"
+
+	VPSet jetTagComputers = {
+		{
+			string jetTagComputer	= "jetProbability"
+			bool discriminator	= true
+			bool variables		= false
+		},
+		{
+			string jetTagComputer	= "combinedSecondaryVertex"
+			bool discriminator	= true
+			bool variables		= false
+		},
+		{
+			string jetTagComputer	= "softMuon"
+			bool discriminator	= true
+			bool variables		= false
+		},
+		{
+			string jetTagComputer	= "softElectron"
+			bool discriminator	= true
+			bool variables		= false
+		}
+	}
+}
