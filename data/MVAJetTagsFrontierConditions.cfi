@@ -15,3 +15,13 @@ es_source BTauMVAJetTagComputerRecord = PoolDBESSource {
 	}
 }
 replace BTauMVAJetTagComputerRecord.DBParameters.loadBlobStreamer = true
+
+# Note: This is a crude hack to use Fake instead of Frontier for the MVA tag
+#       This is for CMSSW_1_6_12, as CondFormats had to change and Frontier
+#       breaks. Fake and Frontier are identical anyway.
+#       This is needed due to the inclusion of the MVA backport from 2_1_X
+#       needed by PAT. b-Tagging reproduces the same discriminator
+#       for impactParameterMVAJetTags and combinedSVMVAJetTags
+#
+include "RecoBTau/JetTagComputer/data/MVAJetTagsFakeConditions.cfi"
+es_prefer FakeBTauMVAJetTagComputerRecord = BTauFakeMVAJetTagConditions {}
